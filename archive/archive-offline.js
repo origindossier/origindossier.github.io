@@ -8,17 +8,20 @@
     function publicPath(value) {
         if (!value || /^(#|mailto:|tel:|data:|javascript:)/i.test(value)) return null;
         if (value.startsWith(root.href)) return '/' + decodeURIComponent(value.slice(root.href.length).split(/[?#]/)[0]);
+        if (root.protocol === 'file:' && value.startsWith(root.pathname)) return '/' + decodeURIComponent(value.slice(root.pathname.length).split(/[?#]/)[0]);
         if (/^\/(?!\/)/.test(value)) return decodeURIComponent(new URL(value, publicOrigin).pathname);
         try {
-            const u = new URL(value);
+            const u = new URL(value, document.baseURI);
+            if (u.href.startsWith(root.href)) return '/' + decodeURIComponent(u.href.slice(root.href.length).split(/[?#]/)[0]);
             return ['origindossier.org', 'www.origindossier.org', '127.0.0.1', 'localhost'].includes(u.hostname) ? decodeURIComponent(u.pathname) : null;
         } catch (_) { return null; }
     }
     function localUrl(value) {
-        if (value.startsWith(root.pathname)) return new URL(value, root).href;
-        const p = publicPath(value);
+        if (root.protocol === 'file:' && value.startsWith(root.pathname)) return new URL(value, root).href;
+        let p = publicPath(value);
         if (!p || value.startsWith(root.href)) return value;
         const suffix = value.match(/[?#].*$/)?.[0] || '';
+        if (p === '/') p = '/' + (document.documentElement.lang || 'en');
         return new URL((archive.routes[p.replace(/\/$/, '') || '/'] || p.replace(/^\//, '')) + suffix, root).href;
     }
     // file:// cannot fetch even neighboring JSON/MD in ordinary browser security mode.
@@ -32,6 +35,15 @@
     };
     function fixLinks(node) {
         if (!node || node.nodeType !== 1) return;
+        if (typeof window.markdownit === 'function') {
+            const quotes = node.matches('blockquote') ? [node] : [...node.querySelectorAll('.source-reason blockquote,.legal-source-quote blockquote,.od-tl-proof blockquote')];
+            for (const quote of quotes) {
+                if (!quote.children.length && !quote.dataset.archiveMarkdownRendered) {
+                    quote.dataset.archiveMarkdownRendered = 'true';
+                    quote.innerHTML = window.markdownit({html:false,linkify:false,breaks:true}).render(quote.textContent);
+                }
+            }
+        }
         for (const el of [node, ...node.querySelectorAll('a[href],[data-law-article-href],[data-law-href],[data-fallback-url]')]) {
             for (const attr of ['href', 'data-law-article-href', 'data-law-href', 'data-fallback-url']) {
                 const old = el.getAttribute(attr);
