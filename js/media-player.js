@@ -494,6 +494,8 @@
     }
 
     window.onYouTubeIframeAPIReady = function () {
+        if (player || !window.YT || typeof window.YT.Player !== 'function') return;
+
         const host = document.getElementById('od-youtube-player');
         if (!host) return;
 
@@ -540,6 +542,12 @@
             }
         });
     };
+
+    // The API can finish before this script; its ready callback is not replayed.
+    // Static archives retain their separate, explicit click-to-load bootstrap.
+    if (!window.ODArchive && window.YT && typeof window.YT.Player === 'function') {
+        window.onYouTubeIframeAPIReady();
+    }
 
     window.addEventListener('beforeunload', function () {
         stopCaptionSync();

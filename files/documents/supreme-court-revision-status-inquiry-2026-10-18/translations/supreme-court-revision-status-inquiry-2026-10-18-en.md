@@ -2,7 +2,7 @@
 
 Full English translation of the supplied three-page printout of the author’s email. The headings below identify the physical pages of the source PDF. Statements and conclusions in the email are those of its author.
 
-**Editorial status note:** The author has received no acknowledgment of receipt of the email. This printout does not establish that the Court received or read the email, or registered the appeal on points of law. The source header displays 8:38 PM without specifying a time zone.
+**Historical status at initial publication — 18 October 2026:** **Editorial status note:** The author has received no acknowledgment of receipt of the email. This printout does not establish that the Court received or read the email, or registered the appeal on points of law. The source header displays 8:38 PM without specifying a time zone.
 
 ## PDF page 1
 
@@ -111,3 +111,11 @@ HU Dokumentumok · Időrend · Források
 origindossier.org  
 contact@origindossier.org  
 Hrvatski · English · Magyar
+
+## Update of 20 October 2026 - the Court Registry has replied
+
+The statement that the author had received no acknowledgment describes the position when this inquiry was published on 18 October 2026 and is retained as a historical record. On 20 October, Milanka Ranković, Deputy Head of the Court Registry, expressly replied to that request, confirming registration of the appeal on points of law as Rev 6599/26 and forwarding of the author’s submission to the reporting judge for information.
+
+The separately preserved SAPS record displays receipt and assignment to Judge Dragana Marinković on 13 July and a document entry dated 19 October. The response does not establish that the judge read the submission, visited Origin Dossier, formally incorporated the archive into the file or decided the appeal.
+
+[Supreme Court confirmation of registration as Rev 6599/26 and forwarding of the submission to the reporting judge - 20 October 2026](/en/documents/supreme-court-revision-registration-confirmation-2026-10-20)

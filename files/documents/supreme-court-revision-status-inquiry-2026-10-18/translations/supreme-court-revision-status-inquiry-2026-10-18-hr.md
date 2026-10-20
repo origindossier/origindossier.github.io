@@ -2,7 +2,7 @@
 
 Cjelovit hrvatski prijevod dostavljenog trostraničnog ispisa autorove poruke e-pošte. Oznake ispod odnose se na fizičke stranice izvornog PDF-a. Navodi i zaključci u poruci pripadaju njezinu autoru.
 
-**Urednička napomena o statusu:** Autor nije primio potvrdu primitka poruke. Ovaj ispis ne potvrđuje da je Sud poruku primio ili pročitao, niti da je revizija evidentirana. U zaglavlju izvornika prikazano je vrijeme 8:38 PM (20:38), bez navedene vremenske zone.
+**Povijesno stanje pri prvobitnoj objavi — 18. listopada 2026.:** **Urednička napomena o statusu:** Autor nije primio potvrdu primitka poruke. Ovaj ispis ne potvrđuje da je Sud poruku primio ili pročitao, niti da je revizija evidentirana. U zaglavlju izvornika prikazano je vrijeme 8:38 PM (20:38), bez navedene vremenske zone.
 
 ## PDF stranica 1
 
@@ -111,3 +111,11 @@ HU Dokumentumok · Időrend · Források
 origindossier.org  
 contact@origindossier.org  
 Hrvatski · English · Magyar
+
+## Dopuna od 20. listopada 2026. - sudska pisarnica odgovorila je na upit
+
+Napomena da autor nije imao potvrdu primitka opisuje stanje pri objavi ovog upita 18. listopada 2026. i ostaje sačuvana kao povijesni zapis. Milanka Ranković, zamjenica upravitelja sudske pisarnice, 20. listopada izričito je odgovorila na taj zahtjev, potvrdivši evidentiranje revizije pod brojem Rev 6599/26 te prosljeđivanje autorova podneska sucu izvjestitelju radi upoznavanja.
+
+Zasebno sačuvani zapis SAPS-a prikazuje primitak i dodjelu sutkinji Dragani Marinković 13. srpnja te zapis pismena od 19. listopada. Odgovor ne potvrđuje da je sudac pročitao podnesak, posjetio Origin Dossier, formalno uključio arhivu u spis ili odlučio o reviziji.
+
+[Vrhovni sud potvrđuje evidentiranje predmeta Rev 6599/26 i prosljeđivanje podneska sucu izvjestitelju - 20. listopada 2026.](/hr/documents/supreme-court-revision-registration-confirmation-2026-10-20)

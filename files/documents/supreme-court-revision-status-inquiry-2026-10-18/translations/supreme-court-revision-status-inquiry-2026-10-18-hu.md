@@ -2,7 +2,7 @@
 
 A szerző által rendelkezésre bocsátott, háromoldalas e-mail-PDF teljes magyar fordítása. Az alábbi jelölések a PDF fizikai oldalait követik; az első személyű kijelentések az üzenet szerzőjétől származnak.
 
-**Szerkesztői megjegyzés a közzétételkori állapotról:** a szerző nem kapott átvételi visszaigazolást. A melléklet az elküldött üzenet tartalmát őrzi meg, de nem igazolja, hogy a Bíróság azt átvette vagy elolvasta, illetve hogy a felülvizsgálati kérelmet nyilvántartásba vette. A fejlécben megjelenő időpont: „October 18, 2026 at 8:38 PM”; a PDF nem jelöl meg időzónát. Ez a szerkesztői megjegyzés nem része az eredeti üzenetnek.
+**Történeti állapot az első közzétételkor — 2026. október 18.:** **Szerkesztői megjegyzés a közzétételkori állapotról:** a szerző nem kapott átvételi visszaigazolást. A melléklet az elküldött üzenet tartalmát őrzi meg, de nem igazolja, hogy a Bíróság azt átvette vagy elolvasta, illetve hogy a felülvizsgálati kérelmet nyilvántartásba vette. A fejlécben megjelenő időpont: „October 18, 2026 at 8:38 PM”; a PDF nem jelöl meg időzónát. Ez a szerkesztői megjegyzés nem része az eredeti üzenetnek.
 
 ## Forrásoldal 1
 
@@ -109,3 +109,11 @@ HU Dokumentumok · Időrend · Források
 origindossier.org  
 contact@origindossier.org  
 Hrvatski · English · Magyar
+
+## 2026. október 20-i kiegészítés - a bírósági kezelőiroda válaszolt
+
+Az a megjegyzés, hogy a szerző nem kapott átvételi visszaigazolást, a megkeresés 2026. október 18-i közzétételekor fennálló állapotot írja le, és történeti feljegyzésként megmarad. Október 20-án Milanka Ranković, a bírósági kezelőiroda vezetőhelyettese kifejezetten erre a megkeresésre válaszolt, igazolva a felülvizsgálati kérelem Rev 6599/26. számon történt nyilvántartásba vételét és a szerző beadványának megismerés céljából történő továbbítását az előadó bírónak.
+
+A külön megőrzött SAPS-nyilvántartás július 13-i beérkezést és Dragana Marinković bíróhoz rendelést, valamint október 19-i iratbejegyzést mutat. A válasz nem igazolja, hogy a bíró elolvasta a beadványt, felkereste az Origin Dossiert, hivatalosan az ügyirat részévé tette az archívumot, vagy döntött a felülvizsgálatról.
+
+[A Legfelsőbb Bíróság igazolja a Rev 6599/26. ügy nyilvántartásba vételét és a beadvány továbbítását az előadó bírónak - 2026. október 20.](/hu/documents/supreme-court-revision-registration-confirmation-2026-10-20)
